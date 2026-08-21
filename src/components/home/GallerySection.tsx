@@ -187,7 +187,7 @@ export function GallerySection() {
           role="dialog"
           aria-modal="true"
           aria-label={active.title}
-          className="fixed inset-0 z-100 flex flex-col bg-primary/95 backdrop-blur-sm"
+          className="fixed inset-0 z-[100] flex flex-col bg-primary/95 backdrop-blur-sm"
           onClick={close}
         >
           <div className="flex items-center justify-between px-5 py-4 md:px-8">
@@ -225,7 +225,7 @@ export function GallerySection() {
                 key={active.src}
                 src={active.src}
                 alt={active.alt}
-                className="animate-fade-in max-h-[70vh] w-auto max-w-full rounded-sm object-contain shadow-2xl"
+                className="max-h-[70vh] w-auto max-w-full rounded-sm object-contain shadow-2xl"
               />
               <figcaption className="mt-5 text-center">
                 <p className="text-xl text-primary-foreground">{active.title}</p>
