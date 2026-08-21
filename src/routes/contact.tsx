@@ -20,7 +20,7 @@ export const Route = createFileRoute("/contact")({
       { name: "twitter:description", content: description },
     ],
   }),
-  component: ContactPage;
+  component: ContactPage,
 });
 
 function ContactPage() {
