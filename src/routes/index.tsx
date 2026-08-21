@@ -4,6 +4,7 @@ import { ServicesSection } from "@/components/home/ServicesSection";
 import { ProcessSection } from "@/components/home/ProcessSection";
 import { CareSection } from "@/components/home/CareSection";
 import { ReachSection } from "@/components/home/ReachSection";
+import { GallerySection } from "@/components/home/GallerySection";
 import { TrustSection } from "@/components/home/TrustSection";
 import { QuoteSection } from "@/components/home/QuoteSection";
 
@@ -33,6 +34,7 @@ function Index() {
       <ProcessSection />
       <CareSection />
       <ReachSection />
+      <GallerySection />
       <TrustSection />
       <QuoteSection />
     </>
