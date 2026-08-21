@@ -36,7 +36,7 @@ export function ProcessSection() {
           />
           <ol className="grid gap-12 lg:grid-cols-4 lg:gap-8">
             {processSteps.map((step, i) => {
-              const { icon: Icon, img, alt } = visuals[i];
+              const { icon: Icon, img, alt } = visuals[i]!;
               return (
                 <li key={step.no} data-reveal className="relative lg:pr-4">
                   <div className="flex items-center gap-4 lg:block">

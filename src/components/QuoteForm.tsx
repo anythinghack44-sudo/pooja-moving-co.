@@ -215,9 +215,9 @@ function Field({
   full,
 }: {
   label: string;
-  error?: string;
+  error?: string | undefined;
   children: React.ReactNode;
-  full?: boolean;
+  full?: boolean | undefined;
 }) {
   return (
     <label className={full ? "sm:col-span-2" : undefined}>

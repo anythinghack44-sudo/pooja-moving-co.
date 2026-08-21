@@ -69,7 +69,7 @@ function ServicesPage() {
       <SectionShell className="pt-8">
         <div className="grid gap-24">
           {services.map((s, i) => {
-            const media = imagery[i];
+            const media = imagery[i]!;
             const flip = i % 2 === 1;
             return (
               <ServiceBlock
